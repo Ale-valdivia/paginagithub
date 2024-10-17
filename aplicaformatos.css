@@ -1,0 +1,69 @@
+body {
+    margin: 0; /* Elimina el margen por defecto */
+    height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+}
+
+.fondo-dividido {
+    width: 100%; /* Ancho completo de la pantalla */
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex; /* Usa flexbox para dividir el espacio */
+    flex-direction: column; /* Dividir en columnas (arriba y abajo) */
+}
+.image-container {
+    position: relative; /* Asegura que el fondo no se vea afectado */
+    max-width: 500px; /* O el tamaño que desees */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+.responsive-image {
+    width: 100%; /* La imagen se ajusta al ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+.lado-arriba {
+    background-color: #ffffff; /* Color de la parte superior */
+    flex: 1; /* Toma la mitad del espacio */
+    display: flex;
+    flex-direction: column; /* Alinear contenido en columna */
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+}
+
+.lado-abajo {
+    background-color: #002060; /* Color de la parte inferior */
+    flex: 1; /* Toma la otra mitad del espacio */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+}
+th {
+    background-color: rgb(0, 0, 0) !important; /* Color de fondo negro */
+    color: rgb(246, 246, 246) !important; /* Color del texto blanco */
+}
+h1 {
+    text-align: center; /* Centra el título */
+    color: rgb(0, 0, 0); /* Cambia el color del texto según sea necesario */
+    margin: 20px 0; /* Espacio alrededor del título */
+}
+
+#imagen-inicio img {
+    width: auto; /* Ajusta la anchura según sea necesario */
+    height: 150px; /* Ajusta la altura según sea necesario */
+    margin-top: 80px;
+}
+
+#contenedordebotones {
+    display: flex; /* Usa flexbox para alinear los botones */
+    justify-content: center; /* Centra horizontalmente los botones */
+    margin-top:0px; /* Espacio superior para los botones */
+}
+.mi-boton {
+    background-color: black;
+    border: whitesmoke;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0px; /* Espacio entre botones */
+    cursor: pointer;
+}
