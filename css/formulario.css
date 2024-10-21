@@ -1,0 +1,51 @@
+body {
+    background-color: hsl(0, 0%, 100%); /* Color de fondo de la página */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}s
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 800px;
+    background-color: rgb(187, 210, 254); /* Fondo del formulario */
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #750404;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #a00707; /* Cambié a un tono más claro para visibilidad */
+}
+table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: rgb(0, 0, 0) !important; /* Color de fondo negro */
+    color: rgb(246, 246, 246) !important; /* Color del texto blanco */
+}
+h2 {
+    color: #2C3E50;
+}
