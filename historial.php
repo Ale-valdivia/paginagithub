@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Historial de Cotizaciones</title>
+    <link rel="stylesheet" href="formulario.php">
 </head>
 <body>
     <h2>Historial de Cotizaciones</h2>
@@ -28,13 +29,11 @@
         </tbody>
     </table>
     <button type="button" onclick="downloadHistory()">Descargar Historial</button>
-
     <script>
         // Cargar cotizaciones desde el localStorage
         function loadHistory() {
             const quotations = JSON.parse(localStorage.getItem('quotations')) || [];
             const tableBody = document.getElementById('historyTableBody');
-
             quotations.forEach(quotation => {
                 const newRow = document.createElement('tr');
                 newRow.innerHTML = `
@@ -54,32 +53,26 @@
                 tableBody.appendChild(newRow);
             });
         }
-
         // Descargar historial como CSV
         function downloadHistory() {
             const tableBody = document.getElementById('historyTableBody');
             let csvContent = "data:text/csv;charset=utf-8,";
-
             // Encabezados de la tabla
             csvContent += "Empresa,Número de Cotización,Nombre del Cliente,Precio Total,Horas Soldadura,Horas Ensamble,Horas Polímeros,Horas Pintura,Horas Ayudantes,Horas Supervisor,Horas Instalación,Total de Horas\n";
-
             // Agregar cada fila de la tabla
             Array.from(tableBody.rows).forEach(row => {
                 const rowData = Array.from(row.cells).map(cell => cell.textContent).join(",");
                 csvContent += rowData + "\n";
             });
-
             // Crear un enlace y descargar el archivo
             const encodedUri = encodeURI(csvContent);
             const link = document.createElement("a");
             link.setAttribute("href", encodedUri);
             link.setAttribute("download", "pagina", "historial_cotizaciones.csv");
             document.body.appendChild(link);
-
             link.click();
             document.body.removeChild(link);
         }
-
         // Cargar el historial al abrir la página
         window.onload = loadHistory;
     </script>

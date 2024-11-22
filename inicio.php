@@ -15,11 +15,11 @@
                 <img src="Imagen/LOGO LINPREC.png" alt="Logo de Linprec S.A.">
             </div>
             <div id="contenedordebotones">
-                <a href="Formulario.html">
-                    <button class="mi-boton">Formulario</button>
+                <a href="formulario.php">
+                    <button class="mi-boton">formulario</button>
                 </a>
-                <a href="Historial.html">
-                    <button class="mi-boton">Historial</button>
+                <a href="historial.php">
+                    <button class="mi-boton">historial</button>
                 </a>
             </div>
         </div>
