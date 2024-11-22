@@ -41,8 +41,8 @@
                 <td>1</td>
                 <td>Lamina de acrílico transparente 12 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
-                <td class="currency unit-value">114583.63</td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
+                <td class="currency unit-value" id="precioAcrilico">114583.63</td>
                 <td class="currency row-total">0,00</td>
                 <td>Poliandina</td>
             </tr>
@@ -50,16 +50,16 @@
                 <td>2</td>
                 <td>Lamina de acrílico ahumado 6 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
-                <td class="currency unit-value">69273.29</td>
-                <td class="currency row-total">0,00</td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
+                <td class="currency unit-value" id="precioAcrilico">69273.29</td>
+                <td class="currency row-total" id="valorTotal">0,00</td>
                 <td>Poliandina</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Lamina de acrílico transparente 6 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">53272.58</td>
                 <td class="currency row-total">0,00</td>
                 <td>Poliandina</td>
@@ -68,7 +68,7 @@
                 <td>4</td>
                 <td>Lamina de acrílico transparente 5 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">46244.76</td>
                 <td class="currency row-total">0,00</td>
                 <td>Poliandina</td>
@@ -77,8 +77,8 @@
                 <td>5</td>
                 <td>lamina de acrilico transparente 4 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
-                <td class="currency unit-value">37817,74</td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
+                <td class="currency unit-value">37817.74</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
             </tr>
@@ -86,8 +86,8 @@
                 <td>6</td>
                 <td>lamina de acrilico transparente 3 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
-                <td class="currency unit-value">26394,92</td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
+                <td class="currency unit-value">26394.92</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
             </tr>
@@ -95,8 +95,8 @@
                 <td>7</td>
                 <td>lamina de acrilico transparente 2 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
-                <td class="currency unit-value">20688,55</td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
+                <td class="currency unit-value">20688.55</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
             </tr>
@@ -104,8 +104,8 @@
                 <td>8</td>
                 <td>lamina de policarbonato transparente 6 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
-                <td class="currency unit-value">70935,045</td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
+                <td class="currency unit-value">70935.45</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
             </tr>
@@ -113,8 +113,8 @@
                 <td>9</td>
                 <td>lamina de policarbonato transparente 5 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
-                <td class="currency unit-value">67165,49</td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
+                <td class="currency unit-value">67165.49</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
             </tr>
@@ -122,8 +122,8 @@
                 <td>11</td>
                 <td>lamina de policarbonato transparente 4 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
-                <td class="currency unit-value">63392,4</td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
+                <td class="currency unit-value">63392.4</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
             </tr>
@@ -131,8 +131,8 @@
                 <td>12</td>
                 <td>lamina de policarbonato transparente 3 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
-                <td class="currency unit-value">41594,72</td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
+                <td class="currency unit-value">41594.72</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
             </tr>
@@ -140,7 +140,7 @@
                 <td>13</td>
                 <td>lamina de policarbonato transparente 10 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">124212,13</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
@@ -149,7 +149,7 @@
                 <td>14</td>
                 <td>lamina de policarbonato blanco 3 mm 122 cm x 244 cm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">45000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
@@ -158,7 +158,7 @@
                 <td>15</td>
                 <td>lamina de policarbonato blanco 6 mm 122 cm x 244 cm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">83000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
@@ -167,7 +167,7 @@
                 <td>16</td>
                 <td>lamina de policarbonato negro 3 mm 122 cm x 244 cm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">49000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
@@ -176,7 +176,7 @@
                 <td>17</td>
                 <td>lamina de policarbonato negro 6 mm 122 cm x 244 cm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">108000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
@@ -185,7 +185,7 @@
                 <td>18</td>
                 <td>lamina de policarbonato ahumado 3 mm 122 cm x 244 cm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">45000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
@@ -194,7 +194,7 @@
                 <td>19</td>
                 <td>lamina de policarbonato ahumado 6 mm 122 cm x 244 cm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">88000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
@@ -203,7 +203,7 @@
                 <td>20</td>
                 <td>lamina de policarbonato 205 x 305 transparente 3 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">82830,69</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
@@ -212,7 +212,7 @@
                 <td>21</td>
                 <td>lamina de policarbonato 205 x 305 transparente 4 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">101565,6</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
@@ -221,7 +221,7 @@
                 <td>22</td>
                 <td>lamina de policarbonato 205 x 305 transparente 5 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">119962,06</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
@@ -230,7 +230,7 @@
                 <td>23</td>
                 <td>lamina de policarbonato 205 x 305 transparente 6 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">148525,47</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
@@ -239,7 +239,7 @@
                 <td>24</td>
                 <td>lamina de policarbonato 205 x 305 transparente 10 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">250738,515</td>
                 <td class="currency row-total">0,0</td>
                 <td>Poliandina</td>
@@ -248,7 +248,7 @@
                 <td>25</td>
                 <td>suministros acrilico</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">2500</td>
                 <td class="currency row-total">0,0</td>
                 <td>Linprec</td>
@@ -257,7 +257,7 @@
                 <td>26</td>
                 <td>tornillería</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">500</td>
                 <td class="currency row-total">0,0</td>
                 <td>Linprec</td>
@@ -325,7 +325,7 @@
             <td>1</td>
             <td>Llave para garrafa</td>
             <td>Unidad</td>
-            <td><input type="number" class="quantity-input" step="1" min="0"></td>
+            <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
             <td class="currency unit-value">47.700</td>
             <td class="currency row-total">0,00</td>
             <td>Poliandina</td>
@@ -334,7 +334,7 @@
             <td>2</td>
             <td>Tapa de perfil</td>
             <td>3.2 mts</td>
-            <td><input type="number" class="quantity-input" step="1" min="0"></td>
+            <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
             <td class="currency unit-value">18362</td>
             <td class="currency row-total">0,00</td>
             <td>Industrial solutions</td>
@@ -343,7 +343,7 @@
             <td>3</td>
             <td>Pieza</td>
             <td>Unidad</td>
-            <td><input type="number" class="quantity-input" step="1" min="0"></td>
+            <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
             <td class="currency unit-value">4000</td>
             <td class="currency row-total">0,00</td>
             <td>Ferreteria</td>
@@ -352,7 +352,7 @@
             <td>4</td>
             <td>Reposabrazos</td>
             <td>Unidad</td>
-            <td><input type="number" class="quantity-input" step="1" min="0"></td>
+            <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
             <td class="currency unit-value">40000</td>
             <td class="currency row-total">0,00</td>
             <td>Amazon</td>
@@ -361,7 +361,7 @@
             <td>5</td>
             <td>Nylon retazo</td>
             <td>Unidad</td>
-            <td><input type="number" class="quantity-input" step="1" min="0"></td>
+            <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
             <td class="currency unit-value">1500</td>
             <td class="currency row-total">0,00</td>
             <td>Ferreteria</td>
@@ -370,7 +370,7 @@
             <td>6</td>
             <td>Dowel pin</td>
             <td>Unidad</td>
-            <td><input type="number" class="quantity-input" step="1" min="0"></td>
+            <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
             <td class="currency unit-value">1800</td>
             <td class="currency row-total">0,00</td>
             <td>Importacion</td>
@@ -379,7 +379,7 @@
             <td>7</td>
             <td>Retazos tapeta y pegamento</td>
             <td>Unidad</td>
-            <td><input type="number" class="quantity-input" step="1" min="0"></td>
+            <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
             <td class="currency unit-value">5000</td>
             <td class="currency row-total">0,00</td>
             <td>Impuestos</td>
@@ -388,7 +388,7 @@
             <td>8</td>
             <td>Basurero</td>
             <td>Unidad</td>
-            <td><input type="number" class="quantity-input" step="1" min="0"></td>
+            <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
             <td class="currency unit-value">172000</td>
             <td class="currency row-total">0,00</td>
             <td>Sanipro</td>
@@ -397,7 +397,7 @@
             <td>9</td>
             <td>Material</td>
             <td>Unidad</td>
-            <td><input type="number" class="quantity-input" step="1" min="0"></td>
+            <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
             <td class="currency unit-value">6500</td>
             <td class="currency row-total">0,00</td>
             <td>Linprec</td>
@@ -406,7 +406,7 @@
             <td>11</td>
             <td>Rodin 2"</td>
             <td>Unidad</td>
-            <td><input type="number" class="quantity-input" step="1" min="0"></td>
+            <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
             <td class="currency unit-value">5000</td>
             <td class="currency row-total">0,00</td>
             <td>Mobesa</td>
@@ -415,7 +415,7 @@
             <td>12</td>
             <td>Rodin 3"</td>
             <td>Unidad</td>
-            <td><input type="number" class="quantity-input" step="1" min="0"></td>
+            <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
             <td class="currency unit-value">9150</td>
             <td class="currency row-total">0,00</td>
             <td>Mobesa</td>
@@ -424,7 +424,7 @@
             <td>13</td>
             <td>Rodin 4"</td>
             <td>Unidad</td>
-            <td><input type="number" class="quantity-input" step="1" min="0"></td>
+            <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
             <td class="currency unit-value">9800</td>
             <td class="currency row-total">0,00</td>
             <td>Mobesa</td>
@@ -433,7 +433,7 @@
             <td>14</td>
             <td>Cinta doble pega</td>
             <td>Unidad</td>
-            <td><input type="number" class="quantity-input" step="1" min="0"></td>
+            <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
             <td class="currency unit-value">1500</td>
             <td class="currency row-total">0,00</td>
             <td>EPA</td>
@@ -442,7 +442,7 @@
             <td>15</td>
             <td>Regulador de altura de estación</td>
             <td>Unidad</td>
-            <td><input type="number" class="quantity-input" step="1" min="0"></td>
+            <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
             <td class="currency unit-value">1000</td>
             <td class="currency row-total">0,00</td>
             <td>Ferreteria</td>
@@ -451,7 +451,7 @@
             <td>16</td>
             <td>Tornillos</td>
             <td>Tornillos</td>
-            <td><input type="number" class="quantity-input" step="1" min="0"></td>
+            <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
             <td class="currency unit-value">1200</td>
             <td class="currency row-total">0,00</td>
             <td>Linprec</td>
@@ -526,7 +526,7 @@
                 <td>1</td>
                 <td>Lamina hierro negro de 122 cm x 244 cm de 1.2 mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">35,000</td>
                 <td class="currency row-total">0,00</td>
                 <td>Camara de industrias</td>
@@ -535,7 +535,7 @@
                 <td>2</td>
                 <td>Lamina hierro negro de 122 cm x 244 cm de (1/16"-1.5mm) mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">29500</td>
                 <td class="currency row-total">0,0</td>
                 <td>Camara de industrias</td>
@@ -544,7 +544,7 @@
                 <td>3</td>
                 <td>Lamina hierro negro de 122 cm x 305 cm de (1/16"-1.5mm) mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">23000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Camara de industrias</td>
@@ -553,7 +553,7 @@
                 <td>4</td>
                 <td>Lamina hierro negro de 122 cm x 244 cm de (3/32"-2mm) mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">48000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Camara de industrias</td>
@@ -562,7 +562,7 @@
                 <td>5</td>
                 <td>Lamina hierro negro de 122 cm x 244 cm de (1/8"-3mm) mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">53000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Camara de industrias</td>
@@ -571,7 +571,7 @@
                 <td>6</td>
                 <td>Lamina hierro negro de 122 cm x 244 cm de (1/4"-6mm) mm</td>
                 <td>Lamina</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">115000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Camara de industrias</td>
@@ -580,7 +580,7 @@
                 <td>7</td>
                 <td>tubo cuadrado de hierro negro de 3/4" x 3/4" x 1.5 mm pared</td>
                 <td>Tubo de 6 mts</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">5000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Construplaza</td>
@@ -589,7 +589,7 @@
                 <td>8</td>
                 <td>tubo cuadrado de hierro negro de 1" x 1" x 1.5 mm pared</td>
                 <td>Tubo de 6 mts</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">5900</td>
                 <td class="currency row-total">0,0</td>
                 <td>Construplaza</td>
@@ -598,7 +598,7 @@
                 <td>9</td>
                 <td>tubo cuadrado de hierro negro de 1 1/4" x 1 1/4" x 1.5 mm pared</td>
                 <td>Tubo de 6 mts</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">9000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Construplaza</td>
@@ -607,7 +607,7 @@
                 <td>11</td>
                 <td>tubo cuadrado de hierro negro de 1 1/2" x 1 1/2" x 1.5 mm pared</td>
                 <td>Tubo de 6 mts</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">9200</td>
                 <td class="currency row-total">0,0</td>
                 <td>Construplaza</td>
@@ -616,7 +616,7 @@
                 <td>12</td>
                 <td>tubo cuadrado de hierro negro de 2" x 2" x 1.5 mm pared</td>
                 <td>Tubo de 6 mts</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">12400</td>
                 <td class="currency row-total">0,0</td>
                 <td>Construplaza</td>
@@ -625,7 +625,7 @@
                 <td>13</td>
                 <td>tubo de hierro negro de 1" x 2" x 1.5 mm pared</td>
                 <td>Tubo de 6 mts</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">8700</td>
                 <td class="currency row-total">0,0</td>
                 <td>Construplaza</td>
@@ -634,7 +634,7 @@
                 <td>14</td>
                 <td>tubo de hierro negro de 2" x 3" x 1.5 mm pared</td>
                 <td>Tubo de 6 mts</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">14500</td>
                 <td class="currency row-total">0,0</td>
                 <td>Construplaza</td>
@@ -643,7 +643,7 @@
                 <td>15</td>
                 <td>Tubo de hierro negro de 2" x 4" x 1.5 mm pared</td>
                 <td>Tubo de 6 mts</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">15400</td>
                 <td class="currency row-total">0,0</td>
                 <td>Construplaza</td>
@@ -652,7 +652,7 @@
                 <td>16</td>
                 <td>platina hierro negro de 1" x 1/8"</td>
                 <td>6 mts</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">4300</td>
                 <td class="currency row-total">0,0</td>
                 <td>Construplaza</td>
@@ -661,7 +661,7 @@
                 <td>17</td>
                 <td>platina hierro negro de 2" x 1/8"</td>
                 <td>6 mts</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">5500</td>
                 <td class="currency row-total">0,0</td>
                 <td>Construplaza</td>
@@ -670,7 +670,7 @@
                 <td>18</td>
                 <td>suministros de soldadura</td>
                 <td>Suministros</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">15000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Linprec</td>
@@ -679,7 +679,7 @@
                 <td>19</td>
                 <td>suministros de pintura</td>
                 <td>Suministros</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">7500</td>
                 <td class="currency row-total">0,0</td>
                 <td>Linprec</td>
@@ -688,7 +688,7 @@
                 <td>21</td>
                 <td>angular de 1" x 1/8"</td>
                 <td>6 mts</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">5000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Linprec</td>
@@ -697,7 +697,7 @@
                 <td>22</td>
                 <td>angular de 1 1/2" x 1/8"</td>
                 <td>6 mts</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">7500</td>
                 <td class="currency row-total">0,0</td>
                 <td>Linprec</td>
@@ -706,7 +706,7 @@
                 <td>23</td>
                 <td>angular de 1 1/2" x 3/16"</td>
                 <td>6 mts</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">12000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Linprec</td>
@@ -715,7 +715,7 @@
                 <td>24</td>
                 <td>angular de 2" x 1/8"</td>
                 <td>6 mts</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">9500</td>
                 <td class="currency row-total">0,0</td>
                 <td>Linprec</td>
@@ -724,7 +724,7 @@
                 <td>25</td>
                 <td>angular de 2" x 3/16"</td>
                 <td>6 mts</td>
-                <td><input type="number" class="quantity-input" step="1" min="0"></td>
+                <td><input type="number" class="quantity-input" step="0.1" min="0"></td>
                 <td class="currency unit-value">19000</td>
                 <td class="currency row-total">0,0</td>
                 <td>Linprec</td>
